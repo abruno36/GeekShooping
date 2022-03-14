@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2pFRy9IZRXgWNDZLfevlR7xyP88nuGEmV9fHFVlpyTx9TYOBb0VJbbGMPHvcpkJfcXWOBdW0iebnINKZdI9JsA==",
+  "dgSpecHash": "nYtk+VBzZRTKnfZ4Xsw9Kzxe9o3Gr172p9c2EX54+2s1KYjsSyqUERVqPsi5kC+JH4KHYDBBK9o5ciEpZJD4KA==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\S07_ErudioMicroservices.NET6-FirstMicrosservices\\GeekShooping\\GeekShooping.Web\\GeekShooping.Web.csproj",
+  "projectFilePath": "C:\\Projetos\\GeekShooping\\GeekShooping.Web\\GeekShooping.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\antonio.a.bruno\\.nuget\\packages\\humanizer.core\\2.13.14\\humanizer.core.2.13.14.nupkg.sha512",
     "C:\\Users\\antonio.a.bruno\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0-preview.1.22076.6\\microsoft.entityframeworkcore.7.0.0-preview.1.22076.6.nupkg.sha512",

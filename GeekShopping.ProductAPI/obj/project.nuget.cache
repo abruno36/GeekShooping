@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s7y3VCEyZThOqEJywPhSpqTtaSTU1Q3lUvPdaAzSgLAG2PLv41a2Wuz7H0OLvlLHud73IPFMy6Sglh26nOeaBg==",
+  "dgSpecHash": "FG+A+6HJH0ZybudpWN8ImiGgiu+64gEDRpA7zxk3WZX4a+J42EQvr4vWaFsI08RuXVltFpWwcDaJHNCvxVHjFw==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\S07_ErudioMicroservices.NET6-FirstMicrosservices\\GeekShooping\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
+  "projectFilePath": "C:\\Projetos\\GeekShooping\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\antonio.a.bruno\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\antonio.a.bruno\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
