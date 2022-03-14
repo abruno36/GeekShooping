@@ -1,4 +1,7 @@
-﻿namespace GeekShopping.Web
+﻿using GeekShopping.Web.Services;
+using GeekShopping.Web.Services.IServices;
+
+namespace GeekShopping.Web
 {
     public class Startup
     {
@@ -12,6 +15,10 @@
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddHttpClient<IProductService, ProductService>(c =>
+                    c.BaseAddress = new Uri(Configuration["ServiveUrls:ProductAPI"])
+                );
+
             services.AddControllersWithViews();
         }
 

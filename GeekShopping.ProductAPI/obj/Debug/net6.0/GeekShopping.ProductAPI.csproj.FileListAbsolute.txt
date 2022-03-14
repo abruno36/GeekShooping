@@ -63,7 +63,6 @@ C:\Projetos\GeekShooping\GeekShopping.ProductAPI\bin\Debug\net6.0\GeekShopping.P
 C:\Projetos\GeekShooping\GeekShopping.ProductAPI\bin\Debug\net6.0\GeekShopping.ProductAPI.deps.json
 C:\Projetos\GeekShooping\GeekShopping.ProductAPI\bin\Debug\net6.0\GeekShopping.ProductAPI.runtimeconfig.json
 C:\Projetos\GeekShooping\GeekShopping.ProductAPI\bin\Debug\net6.0\GeekShopping.ProductAPI.dll
-C:\Projetos\GeekShooping\GeekShopping.ProductAPI\bin\Debug\net6.0\ref\GeekShopping.ProductAPI.dll
 C:\Projetos\GeekShooping\GeekShopping.ProductAPI\bin\Debug\net6.0\GeekShopping.ProductAPI.pdb
 C:\Projetos\GeekShooping\GeekShopping.ProductAPI\bin\Debug\net6.0\AutoMapper.dll
 C:\Projetos\GeekShooping\GeekShopping.ProductAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
@@ -96,3 +95,4 @@ C:\Projetos\GeekShooping\GeekShopping.ProductAPI\obj\Debug\net6.0\staticwebasset
 C:\Projetos\GeekShooping\GeekShopping.ProductAPI\obj\Debug\net6.0\scopedcss\bundle\GeekShopping.ProductAPI.styles.css
 C:\Projetos\GeekShooping\GeekShopping.ProductAPI\obj\Debug\net6.0\GeekShopping.ProductAPI.csproj.CopyComplete
 C:\Projetos\GeekShooping\GeekShopping.ProductAPI\obj\Debug\net6.0\GeekShopping.ProductAPI.genruntimeconfig.cache
+C:\Projetos\GeekShooping\GeekShopping.ProductAPI\obj\Debug\net6.0\refint\GeekShopping.ProductAPI.dll

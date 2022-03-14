@@ -1,4 +1,4 @@
-using GeekShooping.Web;
+using GeekShopping.Web;
 
 namespace GeekShopping.Web
 {

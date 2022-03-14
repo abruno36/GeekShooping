@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{99
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{435F7F91-D9A9-4571-B9BD-DC8A5F82B5B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShooping.Web", "GeekShooping.Web\GeekShooping.Web.csproj", "{7A7B6DD2-1420-42F6-B773-CCA8DC252F7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.Web", "GeekShooping.Web\GeekShopping.Web.csproj", "{7A7B6DD2-1420-42F6-B773-CCA8DC252F7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShopping.ProductAPI", "GeekShopping.ProductAPI\GeekShopping.ProductAPI.csproj", "{9527777A-264D-4BC1-A6F0-1E99779C7CE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.ProductAPI", "GeekShopping.ProductAPI\GeekShopping.ProductAPI.csproj", "{9527777A-264D-4BC1-A6F0-1E99779C7CE6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{89AB1494-799F-4E10-925E-1EE96C55AEC4}"
 	ProjectSection(SolutionItems) = preProject

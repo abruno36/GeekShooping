@@ -930,9 +930,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\GeekShooping\\GeekShooping.Web\\GeekShooping.Web.csproj",
-      "projectName": "GeekShooping.Web",
-      "projectPath": "C:\\Projetos\\GeekShooping\\GeekShooping.Web\\GeekShooping.Web.csproj",
+      "projectUniqueName": "C:\\Projetos\\GeekShooping\\GeekShooping.Web\\GeekShopping.Web.csproj",
+      "projectName": "GeekShopping.Web",
+      "projectPath": "C:\\Projetos\\GeekShooping\\GeekShooping.Web\\GeekShopping.Web.csproj",
       "packagesPath": "C:\\Users\\antonio.a.bruno\\.nuget\\packages\\",
       "outputPath": "C:\\Projetos\\GeekShooping\\GeekShooping.Web\\obj\\",
       "projectStyle": "PackageReference",
