@@ -297,6 +297,7 @@ C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\refs\Windo
 C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Duende.IdentityServer.dll
 C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Duende.IdentityServer.AspNetIdentity.dll
 C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Duende.IdentityServer.Storage.dll
+C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Humanizer.dll
 C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\IdentityModel.dll
 C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -309,6 +310,7 @@ C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.
 C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
 C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
@@ -316,6 +318,8 @@ C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.
 C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\MySqlConnector.dll
+C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
@@ -363,9 +367,4 @@ C:\Projetos\GeekShooping\GeekShopping.IdentityServer\obj\Debug\net6.0\refint\Gee
 C:\Projetos\GeekShooping\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.pdb
 C:\Projetos\GeekShooping\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.genruntimeconfig.cache
 C:\Projetos\GeekShooping\GeekShopping.IdentityServer\obj\Debug\net6.0\ref\GeekShopping.IdentityServer.dll
-C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-C05AE8661ABF2DC369385ECA35466866.json
-C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\MySqlConnector.dll
-C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Humanizer.dll
-C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-E0440EC6D0C9DFD1FC1642BC0851B565.json
+C:\Projetos\GeekShooping\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-8B97B367CD996B23E6B2863F179C1F1E.json
