@@ -172,3 +172,6 @@ C:\Projetos\GeekShooping\GeekShopping.CartAPI\obj\Debug\net6.0\refint\GeekShoppi
 C:\Projetos\GeekShooping\GeekShopping.CartAPI\obj\Debug\net6.0\GeekShopping.CartAPI.pdb
 C:\Projetos\GeekShooping\GeekShopping.CartAPI\obj\Debug\net6.0\GeekShopping.CartAPI.genruntimeconfig.cache
 C:\Projetos\GeekShooping\GeekShopping.CartAPI\obj\Debug\net6.0\ref\GeekShopping.CartAPI.dll
+C:\Projetos\GeekShooping\GeekShopping.CartAPI\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Projetos\GeekShooping\GeekShopping.CartAPI\bin\Debug\net6.0\GeekShopping.MessageBus.dll
+C:\Projetos\GeekShooping\GeekShopping.CartAPI\bin\Debug\net6.0\GeekShopping.MessageBus.pdb

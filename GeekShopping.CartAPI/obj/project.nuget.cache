@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IqF37eNrHCGeOEDwtpxpuBiJNZWrPZ6Ytm2W+2Lzc2yFvCL63SijuXCkAysHhAQn1EQHvVb3Oo75aSrLEd4BnA==",
+  "dgSpecHash": "uqlWt42EWTqE/s2sNw+F+cTmX4vxaUVUSJVJwNR4Nr0f7Ncd8oPRIBBGLa6Mnb9JSE+TS+JfaBQhT5cb+BPwwA==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\GeekShooping\\GeekShopping.CartAPI\\GeekShopping.CartAPI.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\antonio.a.bruno\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\antonio.a.bruno\\.nuget\\packages\\mysqlconnector\\1.3.10\\mysqlconnector.1.3.10.nupkg.sha512",
     "C:\\Users\\antonio.a.bruno\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\6.0.0-preview.5\\pomelo.entityframeworkcore.mysql.6.0.0-preview.5.nupkg.sha512",
+    "C:\\Users\\antonio.a.bruno\\.nuget\\packages\\rabbitmq.client\\6.2.4\\rabbitmq.client.6.2.4.nupkg.sha512",
     "C:\\Users\\antonio.a.bruno\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.5\\swashbuckle.aspnetcore.6.1.5.nupkg.sha512",
     "C:\\Users\\antonio.a.bruno\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.1.5\\swashbuckle.aspnetcore.annotations.6.1.5.nupkg.sha512",
     "C:\\Users\\antonio.a.bruno\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.5\\swashbuckle.aspnetcore.swagger.6.1.5.nupkg.sha512",
@@ -45,7 +46,8 @@
     "C:\\Users\\antonio.a.bruno\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\antonio.a.bruno\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\antonio.a.bruno\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0-preview.6.21352.12\\system.runtime.compilerservices.unsafe.6.0.0-preview.6.21352.12.nupkg.sha512",
-    "C:\\Users\\antonio.a.bruno\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    "C:\\Users\\antonio.a.bruno\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Users\\antonio.a.bruno\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }
