@@ -70,6 +70,7 @@ namespace GeekShopping.Web.Services
         public async Task<object> Checkout(CartHeaderViewModel model, string token)
         {
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
             var response = await _client.PostAsJson($"{BasePath}/checkout", model);
             if (response.IsSuccessStatusCode)
             {

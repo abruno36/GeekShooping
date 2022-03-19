@@ -4,6 +4,7 @@ using GeekShopping.CartAPI.RabbitMQSender;
 using GeekShopping.CartAPI.Repository;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace GeekShopping.CartAPI.Controllers
@@ -15,9 +16,11 @@ namespace GeekShopping.CartAPI.Controllers
         private ICartRepository _cartRepository;
         private ICouponRepository _couponRepository;
         private IRabbitMQMessageSender _rabbitMQMessageSender;
+        private readonly HttpClient _client;
 
         public CartController(ICartRepository cartRepository,
             ICouponRepository couponRepository,
+            HttpClient client,
             IRabbitMQMessageSender rabbitMQMessageSender)
         {
             _cartRepository = cartRepository ?? throw new
@@ -26,6 +29,7 @@ namespace GeekShopping.CartAPI.Controllers
                 ArgumentNullException(nameof(couponRepository));
             _rabbitMQMessageSender = rabbitMQMessageSender
                 ?? throw new ArgumentNullException(nameof(rabbitMQMessageSender));
+            _client = client;
         }
 
         [HttpGet("find-cart/{id}")]
@@ -80,6 +84,10 @@ namespace GeekShopping.CartAPI.Controllers
         public async Task<ActionResult<CheckoutHeaderVO>> Checkout(CheckoutHeaderVO vo)
         {
             string token = Request.Headers["Authorization"];
+
+            int foundS1 = token.IndexOf("Bearer ");
+            int foundS2 = token.IndexOf(" ", foundS1);
+            token = token.Remove(foundS1, foundS2 + 1);
 
             if (vo?.UserId == null) return BadRequest();
             var cart = await _cartRepository.FindCartByUserId(vo.UserId);
