@@ -193,11 +193,11 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.0": {
+      "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.0-preview.7.21378.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Razor.Language": "6.0.0",
-          "Microsoft.CodeAnalysis.Razor": "6.0.0"
+          "Microsoft.AspNetCore.Razor.Language": "6.0.0-preview.7.21378.6",
+          "Microsoft.CodeAnalysis.Razor": "6.0.0-preview.7.21378.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll": {}
@@ -206,12 +206,12 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/6.0.0": {
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/6.0.0-preview.7.21378.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.Razor.Extensions": "6.0.0",
-          "Microsoft.CodeAnalysis.Razor": "6.0.0",
-          "Microsoft.Extensions.DependencyModel": "6.0.0"
+          "Microsoft.AspNetCore.Mvc.Razor.Extensions": "6.0.0-preview.7.21378.6",
+          "Microsoft.CodeAnalysis.Razor": "6.0.0-preview.7.21378.6",
+          "Microsoft.Extensions.DependencyModel": "6.0.0-preview.7.21377.19"
         },
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll": {}
@@ -226,7 +226,7 @@
           "buildTransitive/net6.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Razor.Language/6.0.0": {
+      "Microsoft.AspNetCore.Razor.Language/6.0.0-preview.7.21378.6": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {}
@@ -254,7 +254,7 @@
           "build/_._": {}
         }
       },
-      "Microsoft.CodeAnalysis.Common/4.0.0": {
+      "Microsoft.CodeAnalysis.Common/4.0.0-2.21354.7": {
         "type": "package",
         "dependencies": {
           "Microsoft.CodeAnalysis.Analyzers": "3.3.2",
@@ -313,10 +313,10 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.CSharp/4.0.0": {
+      "Microsoft.CodeAnalysis.CSharp/4.0.0-2.21354.7": {
         "type": "package",
         "dependencies": {
-          "Microsoft.CodeAnalysis.Common": "[4.0.0]"
+          "Microsoft.CodeAnalysis.Common": "[4.0.0-2.21354.7]"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll": {}
@@ -366,12 +366,12 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.Razor/6.0.0": {
+      "Microsoft.CodeAnalysis.Razor/6.0.0-preview.7.21378.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Razor.Language": "6.0.0",
-          "Microsoft.CodeAnalysis.CSharp": "4.0.0",
-          "Microsoft.CodeAnalysis.Common": "4.0.0"
+          "Microsoft.AspNetCore.Razor.Language": "6.0.0-preview.7.21378.6",
+          "Microsoft.CodeAnalysis.CSharp": "4.0.0-2.21354.7",
+          "Microsoft.CodeAnalysis.Common": "4.0.0-2.21354.7"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.CodeAnalysis.Razor.dll": {}
@@ -528,14 +528,14 @@
           "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyModel/6.0.0": {
+      "Microsoft.Extensions.DependencyModel/6.0.0-preview.7.21377.19": {
         "type": "package",
         "dependencies": {
           "System.Buffers": "4.5.1",
           "System.Memory": "4.5.4",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
-          "System.Text.Encodings.Web": "6.0.0",
-          "System.Text.Json": "6.0.0"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0-preview.7.21377.19",
+          "System.Text.Encodings.Web": "6.0.0-preview.7.21377.19",
+          "System.Text.Json": "6.0.0-preview.7.21377.19"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {}
@@ -875,10 +875,10 @@
           "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0-preview.7.21377.19": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         },
         "runtime": {
           "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -1005,19 +1005,13 @@
           }
         }
       },
-      "System.Text.Encodings.Web/6.0.0": {
+      "System.Text.Encodings.Web/6.0.0-preview.7.21377.19": {
         "type": "package",
-        "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
-        },
         "compile": {
           "lib/net6.0/System.Text.Encodings.Web.dll": {}
         },
         "runtime": {
           "lib/net6.0/System.Text.Encodings.Web.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
         },
         "runtimeTargets": {
           "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll": {
@@ -1026,12 +1020,8 @@
           }
         }
       },
-      "System.Text.Json/6.0.0": {
+      "System.Text.Json/6.0.0-preview.7.21377.19": {
         "type": "package",
-        "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
-          "System.Text.Encodings.Web": "6.0.0"
-        },
         "compile": {
           "lib/net6.0/System.Text.Json.dll": {}
         },
@@ -1241,24 +1231,24 @@
         "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.0": {
-      "sha512": "M0h+ChPgydX2xY17agiphnAVa/Qh05RAP8eeuqGGhQKT10claRBlLNO6d2/oSV8zy0RLHzwLnNZm5xuC/gckGA==",
+    "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.0-preview.7.21378.6": {
+      "sha512": "HOYQ5YbZl/Y9N0VwpkJU7mr4w4JueaQqfGr9xZ1lup89wqk76pZYPesJZMjEd8RODS+R8pPP7H02jzGKd8EXWQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.razor.extensions/6.0.0",
+      "path": "microsoft.aspnetcore.mvc.razor.extensions/6.0.0-preview.7.21378.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll",
-        "microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.razor.extensions.6.0.0-preview.7.21378.6.nupkg.sha512",
         "microsoft.aspnetcore.mvc.razor.extensions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/6.0.0": {
-      "sha512": "bf4kbla/8Qiu53MgFPz1u3H1ThoookPpFy+Ya9Q9p531wXK1pZ3tfz/Gtx8SKy41yz99jhZHTUM1QqLl7eJRgQ==",
+    "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/6.0.0-preview.7.21378.6": {
+      "sha512": "HWgR0tvGZOcNaNicqCZicDtTtD5v1PBVKXS0GBqPllDRh2OPnLug1lWovR6FgDhwFx3uC0Z7HRJkfaRO3TaJ3A==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.razor.runtimecompilation/6.0.0",
+      "path": "microsoft.aspnetcore.mvc.razor.runtimecompilation/6.0.0-preview.7.21378.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1268,21 +1258,21 @@
         "buildTransitive/net6.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.targets",
         "lib/net6.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll",
         "lib/net6.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.xml",
-        "microsoft.aspnetcore.mvc.razor.runtimecompilation.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.razor.runtimecompilation.6.0.0-preview.7.21378.6.nupkg.sha512",
         "microsoft.aspnetcore.mvc.razor.runtimecompilation.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Razor.Language/6.0.0": {
-      "sha512": "yCtBr1GSGzJrrp1NJUb4ltwFYMKHw/tJLnIDvg9g/FnkGIEzmE19tbCQqXARIJv5kdtBgsoVIdGLL+zmjxvM/A==",
+    "Microsoft.AspNetCore.Razor.Language/6.0.0-preview.7.21378.6": {
+      "sha512": "mJTZSGrBJvFd7TuIpRuEwDWtYmJqmsE+uoZFNsFrB0fz/zZ4GM9m19IajBYW9/us2/BbCHrMuB1P5wwVzioazg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.razor.language/6.0.0",
+      "path": "microsoft.aspnetcore.razor.language/6.0.0-preview.7.21378.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll",
-        "microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.razor.language.6.0.0-preview.7.21378.6.nupkg.sha512",
         "microsoft.aspnetcore.razor.language.nuspec"
       ]
     },
@@ -1409,10 +1399,10 @@
         "tools/uninstall.ps1"
       ]
     },
-    "Microsoft.CodeAnalysis.Common/4.0.0": {
-      "sha512": "d02ybMhUJl1r/dI6SkJPHrTiTzXBYCZeJdOLMckV+jyoMU/GGkjqFX/sRbv1K0QmlpwwKuLTiYVQvfYC+8ox2g==",
+    "Microsoft.CodeAnalysis.Common/4.0.0-2.21354.7": {
+      "sha512": "C0c463vmlc/v8VBkhS5TV+EV4FuBS7hU6ab2J3pHW+kokqsSibgxRQHRYm/OTmcd7fDSAYsY41Wk8H6i4RaI1Q==",
       "type": "package",
-      "path": "microsoft.codeanalysis.common/4.0.0",
+      "path": "microsoft.codeanalysis.common/4.0.0-2.21354.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1450,14 +1440,14 @@
         "lib/netstandard2.0/tr/Microsoft.CodeAnalysis.resources.dll",
         "lib/netstandard2.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll",
-        "microsoft.codeanalysis.common.4.0.0.nupkg.sha512",
+        "microsoft.codeanalysis.common.4.0.0-2.21354.7.nupkg.sha512",
         "microsoft.codeanalysis.common.nuspec"
       ]
     },
-    "Microsoft.CodeAnalysis.CSharp/4.0.0": {
-      "sha512": "2UVTGtyQGgTCazvnT6t82f+7AV2L+kqJdyb61rT9GQed4yK+tVh5IkaKcsm70VqyZQhBbDqsfZFNHnY65xhrRw==",
+    "Microsoft.CodeAnalysis.CSharp/4.0.0-2.21354.7": {
+      "sha512": "DYsziR1WJdjrcJIiZjPilJBMVBaXXM3NujcRD77f7+ZmTHBAXs5rN3DxlhbEdxAxFu5g5Vf2TGbD0ZAPKin1qQ==",
       "type": "package",
-      "path": "microsoft.codeanalysis.csharp/4.0.0",
+      "path": "microsoft.codeanalysis.csharp/4.0.0-2.21354.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1495,21 +1485,21 @@
         "lib/netstandard2.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
         "lib/netstandard2.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "microsoft.codeanalysis.csharp.4.0.0.nupkg.sha512",
+        "microsoft.codeanalysis.csharp.4.0.0-2.21354.7.nupkg.sha512",
         "microsoft.codeanalysis.csharp.nuspec"
       ]
     },
-    "Microsoft.CodeAnalysis.Razor/6.0.0": {
-      "sha512": "uqdzuQXxD7XrJCbIbbwpI/LOv0PBJ9VIR0gdvANTHOfK5pjTaCir+XcwvYvBZ5BIzd0KGzyiamzlEWw1cK1q0w==",
+    "Microsoft.CodeAnalysis.Razor/6.0.0-preview.7.21378.6": {
+      "sha512": "roE0IWNpnu7YP83QYarVp459udFW13WS/eI2KFz/ikuBrd2irermWnaoHizsDFYKaijtex9EJdjoU6GQbiqIIA==",
       "type": "package",
-      "path": "microsoft.codeanalysis.razor/6.0.0",
+      "path": "microsoft.codeanalysis.razor/6.0.0-preview.7.21378.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard2.0/Microsoft.CodeAnalysis.Razor.dll",
-        "microsoft.codeanalysis.razor.6.0.0.nupkg.sha512",
+        "microsoft.codeanalysis.razor.6.0.0-preview.7.21378.6.nupkg.sha512",
         "microsoft.codeanalysis.razor.nuspec"
       ]
     },
@@ -1770,10 +1760,10 @@
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.DependencyModel/6.0.0": {
-      "sha512": "TD5QHg98m3+QhgEV1YVoNMl5KtBw/4rjfxLHO0e/YV9bPUBDKntApP4xdrVtGgCeQZHVfC2EXIGsdpRNrr87Pg==",
+    "Microsoft.Extensions.DependencyModel/6.0.0-preview.7.21377.19": {
+      "sha512": "otm46afmgplhyAnQ6GHRK8GSUApgcL0BEvwDFDND0oLwITud3tbaJfkg+I4gvbKli2goM/jKOACbhykSfaa6YQ==",
       "type": "package",
-      "path": "microsoft.extensions.dependencymodel/6.0.0",
+      "path": "microsoft.extensions.dependencymodel/6.0.0-preview.7.21377.19",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1784,7 +1774,7 @@
         "lib/net461/Microsoft.Extensions.DependencyModel.xml",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.xml",
-        "microsoft.extensions.dependencymodel.6.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencymodel.6.0.0-preview.7.21377.19.nupkg.sha512",
         "microsoft.extensions.dependencymodel.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -2352,10 +2342,10 @@
         "version.txt"
       ]
     },
-    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
-      "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+    "System.Runtime.CompilerServices.Unsafe/6.0.0-preview.7.21377.19": {
+      "sha512": "G9eKxgKE5UoyJdB4tpBFCWlgky34N11QDIjn92g6BwqII03yra4raegNNt3y3lmN6k+VDLIzgVMuddZ7LT6TEw==",
       "type": "package",
-      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0-preview.7.21377.19",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2372,7 +2362,17 @@
         "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
         "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
         "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/net6.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.6.0.0-preview.7.21377.19.nupkg.sha512",
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -2635,18 +2635,16 @@
         "version.txt"
       ]
     },
-    "System.Text.Encodings.Web/6.0.0": {
-      "sha512": "Vg8eB5Tawm1IFqj4TVK1czJX89rhFxJo9ELqc/Eiq0eXy13RK00eubyU6TJE6y+GQXjyV5gSfiewDUZjQgSE0w==",
+    "System.Text.Encodings.Web/6.0.0-preview.7.21377.19": {
+      "sha512": "sA3gEZlD/KuNshm4swHSXVE/Gr0dgqzPLbKg1Bc5RGaxojPXa6vmyy75/+XCR6OKp/G//K83L9ZZj4K0Nvw9Ug==",
       "type": "package",
-      "path": "system.text.encodings.web/6.0.0",
+      "path": "system.text.encodings.web/6.0.0-preview.7.21377.19",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/netcoreapp2.0/System.Text.Encodings.Web.targets",
-        "buildTransitive/netcoreapp3.1/_._",
         "lib/net461/System.Text.Encodings.Web.dll",
         "lib/net461/System.Text.Encodings.Web.xml",
         "lib/net6.0/System.Text.Encodings.Web.dll",
@@ -2657,50 +2655,22 @@
         "lib/netstandard2.0/System.Text.Encodings.Web.xml",
         "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll",
         "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.xml",
-        "system.text.encodings.web.6.0.0.nupkg.sha512",
+        "system.text.encodings.web.6.0.0-preview.7.21377.19.nupkg.sha512",
         "system.text.encodings.web.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Text.Json/6.0.0": {
-      "sha512": "zaJsHfESQvJ11vbXnNlkrR46IaMULk/gHxYsJphzSF+07kTjPHv+Oc14w6QEOfo3Q4hqLJgStUaYB9DBl0TmWg==",
+    "System.Text.Json/6.0.0-preview.7.21377.19": {
+      "sha512": "i5btOh4ocAylrLIFr2roGnbJW2GYDH1uCzMASg62UWVjGPnWZuVBjZ6Ttw9Cpu/hJ12Toe/hAQhiv1NUN9TigQ==",
       "type": "package",
-      "path": "system.text.json/6.0.0",
+      "path": "system.text.json/6.0.0-preview.7.21377.19",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "analyzers/dotnet/roslyn3.11/cs/System.Text.Json.SourceGeneration.dll",
-        "analyzers/dotnet/roslyn3.11/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/de/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/es/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/it/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/System.Text.Json.SourceGeneration.dll",
-        "analyzers/dotnet/roslyn4.0/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/de/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/es/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/it/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
-        "build/System.Text.Json.targets",
+        "analyzers/dotnet/cs/System.Text.Json.SourceGeneration.dll",
         "buildTransitive/netcoreapp2.0/System.Text.Json.targets",
         "buildTransitive/netcoreapp3.1/_._",
         "lib/net461/System.Text.Json.dll",
@@ -2711,7 +2681,7 @@
         "lib/netcoreapp3.1/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.6.0.0.nupkg.sha512",
+        "system.text.json.6.0.0-preview.7.21377.19.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -2758,7 +2728,7 @@
     "net6.0": [
       "Microsoft.AspNetCore.Authentication >= 2.2.0",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 6.0.0-preview.7.21378.6",
-      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 6.0.0",
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 6.0.0-preview.7.21378.6",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.0-preview.6.21352.1",
       "Swashbuckle.AspNetCore.Annotations >= 6.3.0",
       "Swashbuckle.AspNetCore.SwaggerUI >= 6.3.0",
@@ -2822,7 +2792,7 @@
           },
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
             "target": "Package",
-            "version": "[6.0.0, )"
+            "version": "[6.0.0-preview.7.21378.6, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
