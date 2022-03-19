@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Vd2MPJ8AaLyOKPNF7R7+QJ9SkTjNInJD15DgqqhV+6E=",
+  "Hash": "jx5kOsFBwL1mxQym4hB9Z0lxSzYPnY8CDLlGM4WrbPM=",
   "Source": "GeekShopping.Web",
   "BasePath": "_content/GeekShopping.Web",
   "Mode": "Default",
@@ -153,6 +153,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\IdentityServer.png"
     },
     {
+      "Identity": "C:\\Projetos\\GeekShooping\\GeekShooping.Web\\wwwroot\\Images\\MicroServicos_RabbitMQ.png",
+      "SourceId": "GeekShopping.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projetos\\GeekShooping\\GeekShooping.Web\\wwwroot\\",
+      "BasePath": "_content/GeekShopping.Web",
+      "RelativePath": "Images/MicroServicos_RabbitMQ.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\MicroServicos_RabbitMQ.png"
+    },
+    {
       "Identity": "C:\\Projetos\\GeekShooping\\GeekShooping.Web\\wwwroot\\Images\\order.png",
       "SourceId": "GeekShopping.Web",
       "SourceType": "Discovered",
@@ -168,23 +185,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\order.png"
-    },
-    {
-      "Identity": "C:\\Projetos\\GeekShooping\\GeekShooping.Web\\wwwroot\\Images\\RabbitMQ.png",
-      "SourceId": "GeekShopping.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos\\GeekShooping\\GeekShooping.Web\\wwwroot\\",
-      "BasePath": "_content/GeekShopping.Web",
-      "RelativePath": "Images/RabbitMQ.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\RabbitMQ.png"
     },
     {
       "Identity": "C:\\Projetos\\GeekShooping\\GeekShooping.Web\\wwwroot\\js\\site.js",
